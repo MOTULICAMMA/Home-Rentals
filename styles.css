@@ -1,8 +1,9 @@
 /* Global */
+
 body {
-    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
     background-color: antiquewhite;
     margin: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif;
 }
 
 
@@ -13,6 +14,11 @@ body {
     justify-content: space-between;
     background-color: #fff;
     padding: 15px;
+    margin-bottom: 70px;
+}
+
+.sign-in {
+    border: groove;
 }
 
 .header h1 {
@@ -39,6 +45,7 @@ body {
 
 .left {
     margin-left: 100px;
+    align-self: center;
 }
 
 .right {
@@ -68,5 +75,167 @@ body {
 
 .middle {
     margin-left: -150px;
-    align-self: flex-end;
+    align-self: center;
 }
+
+/* Search-bar */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2rem 1rem;
+    margin-top:30px;
+    border-radius: 50px;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin-right:auto;
+    margin-left:auto;
+    border: unset;
+}
+
+.search-form {
+    display: flex;
+    padding: 1rem;
+    max-width: 800px;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.search-form input,
+.search-form button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: groove;
+    font-size: 1rem;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.search-form input:focus {
+    outline: none;
+    border-color: salmon;
+}
+
+.search-form button {
+    background-color: salmon;
+    color: #fff;
+    cursor: pointer;
+    border: groove salmon;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: red;
+}
+
+.categories-select {
+    border-radius: 25px;
+    border: groove;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 50px;
+}
+
+.categories-select:hover {
+    background-color: salmon;
+    color: #fff;
+}
+
+.search-form input,
+.search-form button,
+.categories-select {
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-form input:hover,
+.search-form button:hover,
+.search-form select:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.search-form input[type="number"] {
+    width: 70px !important;
+    min-width: 70px !important;
+}
+
+
+
+/* Main */
+
+.main {
+    background-color: #fff;
+    padding: 40px;
+    width: 1500px;
+    margin-left: 130px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.rent-homes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main img {
+    border-radius: 20px;
+}
+
+.main .money {
+    font-weight: bold;
+}
+
+.main p {
+    margin-bottom: -10px;
+}
+
+.zatonCroatia,
+.pestenitaRomania,
+.gordesFrance,
+.siófokHungary,
+.koviljSerbia,
+.zakopanePoland{
+    text-decoration: none;
+    color: #000;
+}
+
+.zatonCroatia:active
+.pestenitaRomania:active,
+.gordesFrance:active,
+.siófokHungary:active,
+.koviljSerbia:active,
+.zakopanePoland:active{
+    text-decoration: none;
+    color: #000;
+}
+
+.siófokHungary,
+.koviljSerbia,
+.zakopanePoland{
+    margin-top: 45px;
+}
+
+/* Footer */
+
+.contact {
+    background-color: antiquewhite;
+    padding-bottom: 50px;
+}
+
+.contact p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
