@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <div class="left">
             <img src="images/images.png" class="home-icon" width="30" height="30"/>
             <h1>Home Rentals</h1>
@@ -15,14 +15,16 @@
             <ul class="list">
                 <li class="home"><a href="#header">Home</a></li>
                 |
-                <li class="contact-ul"><a href="#contact">Contact</a></li>
+                <li class="contact-ul"><a href="#footer">About</a></li>
             </ul>
         </div>
         <div class="right">
-            <button class="sign-in">
-                <img src="images/Sample_User_Icon.png" width="30" height="30">
-                <p>Sign in</p>
-            </button>
+            <a href="sign-in.html" target="_blank">
+                <div class="sign-in">
+                    <img src="images/Sample_User_Icon.png" width="30" height="30">
+                    <p>Sign in</p>
+                </div>
+            </a>
         </div>
     </div>
     <div class="search-bar">
@@ -93,10 +95,16 @@
             </a>
         </div>
     </div>
-
-    <div class="contact">
-        <h4>Contact</h4>
-        <p>@ 2025 Home Rentals,Inc.</p>
+    <hr>
+    <br>
+    <div class="footer" id="footer">
+        <div class="left">
+            <span>@ 2025 HomeRentals, Inc. · Terms · Sitemap · Privacy · Your Privacy Choices</span>
+        </div>
+        <div class="right">
+            <span><img src="images/world.svg" width="20" height="20">English(US)</span>
+            <a href="#" class="icons"><img src="images/social-icons.svg"/></a>
+        </div>
     </div>
 </body>
 </html>
