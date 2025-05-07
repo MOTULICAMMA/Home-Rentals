@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Log In or Sign Up</title>
+    <link rel="stylesheet" href="css/sign-in.css">
 </head>
 <body>
-
+    <div class="header">
+        <div class="left">
+            <img src="images/images.png" class="home-icon" width="30" height="30"/>
+            <h1>Home Rentals</h1>
+        </div>
+        <div class="right">
+            <a href="index.html">Back home</a>
+        </div>
+    </div>
+    <div class="login-container">
+        <div class="client-container">
+            <div class="log-in-section">
+                <h3>Login as client</h3>
+                <p>Email<span class="asterisk">*</span></p>
+                <input type="email" class="email"/>
+                <br>
+                <br>
+                <p>Password<span class="asterisk">*</span></p>
+                <input type="password" class="password"/>
+                <button type="button" class="login-button">
+                    Login
+                </button>
+            </div>
+        </div>
+        <div class="owner-container">
+            <div class="log-in-section">
+                <h3>Login as home owner</h3>
+                <p>Id<span class="asterisk">*</span></p>
+                <input type="text" class="id"/>
+                <br>
+                <br>
+                <p>Password<span class="asterisk">*</span></p>
+                <input type="password" class="password"/>
+                <button type="button" class="login-button">
+                    Login
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="sign-up-container">
+        <button type="button" class="sign-up-button">
+            <a href="sign-up.html">Or sign up</a>
+        </button>
+    </div>
 </body>
 </html>

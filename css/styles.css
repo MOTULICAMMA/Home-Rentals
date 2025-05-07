@@ -36,6 +36,10 @@ body {
     border: groove;
 }
 
+.sign-in p {
+    font-weight: 600;
+}
+
 .right a {
     color: #000;
     text-decoration: none;
@@ -49,6 +53,8 @@ body {
 .left {
     margin-left: 100px;
     align-self: center;
+    display: flex;
+    align-items: center;
 }
 
 .right {
@@ -249,4 +255,5 @@ body {
 
 .footer .icons {
     margin-top: 3px;
+    border: none;
 }
