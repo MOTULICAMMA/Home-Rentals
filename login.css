@@ -1,0 +1,179 @@
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.login-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.login {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.login label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login button {
+    background-color: salmon;
+    color: white;
+    padding: 15px;
+    border: groove darkred;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 2px 2px 55px darkred inset;
+    margin-top: 20px;
+    display: block;
+    place-content: center;
+}
+
+.login button:hover {
+    background-color: darkred;
+}
+
+.signup {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.signup a {
+    color: blue;
+    text-decoration: aquamarine;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+}
+
+.login-owner-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-owner-container h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.login-owner-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.login-owner {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.login-owner h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.login-owner label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+.login-owner input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-owner button {
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+    border: groove darkblue;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 2px 2px 55px darkblue inset;
+    margin-top: 20px;
+    display: block;
+    place-content: center;
+}
+
+.login-owner button:hover {
+    background-color: darkblue;
+}
+
+.add-button {
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: groove mediumpurple;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    place-content: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 30px deeppink inset;
+    margin-left: 890px;
+
+
+}

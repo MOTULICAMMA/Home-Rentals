@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Add New Rental</title>
+    <link rel="stylesheet" href="addhome.css" />
 </head>
 <body>
-$END$
+<div class="container">
+    <h1>Add a New Rental Listing</h1>
+
+    <form class="listing">
+        <label>Title</label>
+        <input type="text" placeholder="e.g. Honefoss student home" required />
+
+        <label>Description</label>
+        <textarea rows="4" placeholder="Write a short description about your place..." required></textarea>
+
+        <label>Location</label>
+        <input type="text" placeholder="City, Country" required />
+
+        <label>Price per Night (USD)</label>
+        <input type="number" placeholder="e.g. 99$" required />
+
+        <label>Available From</label>
+        <input type="date" required />
+
+        <label>Available To</label>
+        <input type="date" required />
+
+        <label>Upload Images</label>
+        <input type="file" accept="image/*" multiple />
+
+        <button type="submit" class="button">Publish Listing</button>
+    </form>
+</div>
 </body>
 </html>

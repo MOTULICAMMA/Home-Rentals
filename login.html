@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="login.css">
 </head>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
 <body>
-$END$
+<div class="header" id="header">
+    <div class="left">
+        <img src="images/images.png" class="home-icon" width="30" height="30"/>
+        <h1>Home Rentals</h1>
+    </div>
+    <div class="middle">
+        <ul class="list">
+            <li class="home"><a href="index.html">Home</a></li>
+            |
+            <li class="about"><a href="#footer">About</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <a href="login.html" target="_blank">
+            <div class="sign-in">
+                <img src="images/Sample_User_Icon.png" width="30" height="30">
+                <p>Sign in</p>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="login-container">
+    <h1>Hello there!</h1>
+
+    <div class="login-grid">
+
+        <!-- Client Login -->
+
+        <div class="login">
+            <h2>Login as Client</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Barackobama@yahoo.com" required />
+                <label>Password</label>
+                <input type="password" placeholder="Enter password" required />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Owner Login -->
+
+        <div class="login-owner">
+            <h2>Login as Home Owner</h2>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Katyperry@gmail.com" required />
+                <label>Password</label>
+                <input type="password" placeholder="Enter password" required />
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <p class="signup">Don't have an account? <a href="#">Sign up here</a></p>
+</div>
+
+<a href="add-home.html" class="add-button"> Add New Rental</a>
+
+
 </body>
 </html>
