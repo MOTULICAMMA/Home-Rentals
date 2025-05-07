@@ -1,0 +1,118 @@
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 0 1000px rgba(0,0,0,0.8);
+
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 1px;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+    text-decoration-style: dotted;
+    text-align: center;
+
+}
+
+/* BOOKING FORM */
+
+.checkout{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 16px;
+}
+
+.form {
+    flex: 1;
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+.section label {
+    display: block;
+    margin: 8px 0 4px;
+    font-size: 16px;
+}
+
+.section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid darkred;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.button {
+    background-color: salmon;
+    color: white;
+    padding: 20px;
+    border: groove darkred;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 2px 2px 55px darkred inset;
+    margin-top: 20px;
+    display: block;
+    place-content: center;
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+
+/* INFO BOX */
+
+.summary-section {
+    flex: 1;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.summary-details {
+    padding: 15px;
+}
+
+.price p {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+hr {
+    margin: 10px 0;
+    box-shadow: 1px 1px 1px darkred;
+}
